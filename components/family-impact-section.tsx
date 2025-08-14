@@ -40,7 +40,7 @@ export function FamilyImpactSection() {
           <Card className="overflow-hidden border-0 shadow-lg hover:shadow-xl transition-all duration-300">
             <div className="aspect-video bg-gradient-to-br from-green-100 to-green-200 relative overflow-hidden">
               <img
-                src="/baking-family.png"
+                src="/mother-children-baking.png"
                 alt="Mother and children baking together"
                 className="w-full h-full object-cover"
               />
