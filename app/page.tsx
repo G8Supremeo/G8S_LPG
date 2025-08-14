@@ -1,5 +1,6 @@
 import { Header } from "@/components/header"
 import { HeroSection } from "@/components/hero-section"
+import { LaunchCountdown } from "@/components/launch-countdown" // Added countdown import
 import { FamilyImpactSection } from "@/components/family-impact-section"
 import { TradingInterface } from "@/components/trading-interface"
 import { TokenRoadmap } from "@/components/token-roadmap"
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Header />
       <main>
         <HeroSection />
+        <LaunchCountdown /> {/* Added countdown section after hero */}
         <FamilyImpactSection />
         <TradingInterface />
         <TokenRoadmap />
